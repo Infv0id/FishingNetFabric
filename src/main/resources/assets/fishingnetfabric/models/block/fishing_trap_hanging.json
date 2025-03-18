@@ -1,0 +1,149 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "uv": [
+            16.0,
+            3.0,
+            0.0,
+            13.0
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        },
+        "north": {
+          "texture": "#front",
+          "uv": [
+            0.0,
+            3.0,
+            16.0,
+            13.0
+          ]
+        },
+        "south": {
+          "texture": "#front",
+          "uv": [
+            0.0,
+            3.0,
+            16.0,
+            13.0
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            16.0,
+            13.0,
+            0.0,
+            3.0
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            3.0,
+            3.0,
+            13.0,
+            13.0
+          ]
+        }
+      },
+      "from": [
+        0,
+        0,
+        3
+      ],
+      "to": [
+        16,
+        10,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#handles",
+          "uv": [
+            14.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "east": {
+          "texture": "#handles",
+          "uv": [
+            2.0,
+            1.0,
+            14.0,
+            7.0
+          ]
+        },
+        "north": {
+          "texture": "#handles",
+          "uv": [
+            2.0,
+            1.0,
+            14.0,
+            7.0
+          ]
+        },
+        "south": {
+          "texture": "#handles",
+          "uv": [
+            2.0,
+            1.0,
+            14.0,
+            7.0
+          ]
+        },
+        "up": {
+          "texture": "#handles",
+          "uv": [
+            14.0,
+            7.0,
+            2.0,
+            1.0
+          ]
+        },
+        "west": {
+          "texture": "#handles",
+          "uv": [
+            14.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        }
+      },
+      "from": [
+        2,
+        10,
+        8
+      ],
+      "to": [
+        14,
+        16,
+        8
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "fishingnetfabric:block/fishing_trap_bottom",
+    "front": "fishingnetfabric:block/fishing_trap_front",
+    "handles": "fishingnetfabric:block/fishing_trap_handles",
+    "particle": "fishingnetfabric:block/fishing_trap_front",
+    "side": "fishingnetfabric:block/fishing_trap_side",
+    "top": "fishingnetfabric:block/fishing_trap_top"
+  }
+}
